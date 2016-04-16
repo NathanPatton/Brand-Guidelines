@@ -178,15 +178,31 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/4-pages\/_example-page-home.sass": {
+	"\/assets\/css\/4-pages\/_hero.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/_example-page-home.sass",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_example-page-home.css",
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/_hero.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_hero.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/4-pages\/_variations.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/_variations.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_variations.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -226,6 +242,17 @@
 		"initialSize": 179495,
 		"inputAbbreviatedPath": "\/assets\/img\/tools.png",
 		"outputAbbreviatedPath": "\/assets\/img\/tools.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/Wordmark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9440,
+		"inputAbbreviatedPath": "\/assets\/img\/Wordmark.png",
+		"outputAbbreviatedPath": "\/assets\/img\/Wordmark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
