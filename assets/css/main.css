@@ -258,8 +258,8 @@ h1, h2, h3, h4, h5, h6 {
   color: white; }
 
 .big, h4 {
-  font-size: 22px;
-  line-height: 1.38; }
+  font-size: 60px;
+  line-height: 1; }
 
 .small, small {
   font-size: 10px;
@@ -501,11 +501,11 @@ input[type="button"] {
   .rules .colour-head {
     float: left;
     width: 20%;
-    margin-left: 15%; }
+    margin-left: 15%;
+    margin-top: 7%; }
   .rules .orange {
-    display: inline-block;
     float: left;
-    margin-top: 1.5em;
+    margin-top: 10%;
     background: #FFC500;
     margin-left: 5%;
     width: 200px;
@@ -520,9 +520,8 @@ input[type="button"] {
     .rules .orange .swatch {
       margin-top: 15px; }
   .rules .navy {
-    display: inline-block;
     float: left;
-    margin-top: 1.5em;
+    margin-top: 10%;
     background: #3A4750;
     margin-left: 2%;
     width: 200px;
@@ -537,9 +536,8 @@ input[type="button"] {
     .rules .navy .swatch {
       margin-top: 15px; }
   .rules .blue {
-    display: inline-block;
     float: left;
-    margin-top: 1.5em;
+    margin-top: 10%;
     background: #00ADB5;
     margin-left: 2%;
     width: 200px;
@@ -553,3 +551,29 @@ input[type="button"] {
     text-align: center; }
     .rules .blue .swatch {
       margin-top: 15px; }
+  .rules .type-head {
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: green; }
+
+.typography {
+  float: left;
+  width: 100%;
+  margin: 0 auto; }
+  .typography .type-head {
+    float: left;
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 10%; }
+  .typography .headings {
+    margin-top: 5%;
+    float: left;
+    width: 60%; }
+    .typography .headings .norm {
+      font-weight: 400; }
+    .typography .headings .thin {
+      font-weight: 100; }
+    .typography .headings .blurb {
+      margin-top: -10%;
+      width: 75%; }
