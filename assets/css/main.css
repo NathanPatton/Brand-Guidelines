@@ -405,11 +405,11 @@ input[type="button"] {
     color: #3A4750;
     text-align: left;
     margin-left: 0.5em;
-    font-size: 11em;
+    font-size: 15vw;
     font-weight: 900;
     line-height: 0.9em;
     margin: 0.5em;
-    margin-top: 1.5em;
+    margin-top: 25vh;
     vertical-align: middle; }
 
 .variations {
@@ -458,8 +458,13 @@ input[type="button"] {
   background-size: cover;
   background-position: center; }
 
+@media (max-width: 800px) {
+  .hero {
+    width: 100%; }
+    .hero .hero-header {
+      width: 100%; } }
 .variations {
-  floa: right;
+  float: left;
   width: 50%;
   height: 500px;
   color: red; }
@@ -468,6 +473,12 @@ input[type="button"] {
     height: 250px;
     color: red; }
 
+@media (max-width: 800px) {
+  .variations {
+    width: 100%; }
+
+  .spacing {
+    width: 100%; } }
 .marque {
   float: left;
   text-align: center;
@@ -581,6 +592,7 @@ input[type="button"] {
 .logo-container {
   width: 100%;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  float: left; }
   .logo-container .wordmark-end {
     margin-top: 10%; }
