@@ -206,7 +206,8 @@ body {
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  height: 3000px; }
+  height: 3000px;
+  overflow-x: hidden; }
 
 ::selection {
   background: #FFF498; }
@@ -492,6 +493,13 @@ input[type="button"] {
       padding-left: 10%;
       padding-right: 10%; }
 
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    float: left; }
+    .container .icon, .container .icon2, .container .icon3 {
+      display: inline-block;
+      padding: 0 auto; } }
 .rules {
   float: left;
   width: 100%;
@@ -568,6 +576,25 @@ input[type="button"] {
     margin-left: 10%;
     background-color: green; }
 
+@media (max-width: 800px) {
+  .rules {
+    width: 100%; }
+    .rules .rules-head {
+      width: 100%;
+      margin: 0 auto;
+      margin-left: 15%;
+      float: left; }
+    .rules .rules-body {
+      width: 100%;
+      float: left;
+      margin-left: 15%; }
+    .rules .colour-head {
+      width: 100%;
+      margin-left: 15%; }
+    .rules .type-head {
+      width: 100%;
+      float: left;
+      background: green; } }
 .typography {
   float: left;
   width: 100%;
@@ -596,3 +623,9 @@ input[type="button"] {
   float: left; }
   .logo-container .wordmark-end {
     margin-top: 10%; }
+
+@media (max-width: 800px) {
+  .typography {
+    width: auto; }
+    .typography .type-head {
+      width: 100%; } }
