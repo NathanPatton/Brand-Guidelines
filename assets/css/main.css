@@ -597,7 +597,19 @@ input[type="button"] {
     .rules .type-head {
       width: 100%;
       float: left;
-      background: green; } }
+      background: green; }
+    .rules .orange {
+      margin-left: 15%; } }
+@media (max-width: 725px) {
+  .rules {
+    width: 100%; }
+    .rules .blue {
+      margin-left: 15%; } }
+@media (max-width: 495px) {
+  .rules {
+    width: 100%; }
+    .rules .navy {
+      margin-left: 15%; } }
 .typography {
   float: left;
   width: 100%;
@@ -631,4 +643,10 @@ input[type="button"] {
   .typography {
     width: auto; }
     .typography .type-head {
-      width: 100%; } }
+      width: 100%; }
+    .typography .headings {
+      margin-left: 15%; }
+      .typography .headings .norm, .typography .headings .thin, .typography .headings strong {
+        font-size: 5vw; }
+      .typography .headings .blurb {
+        width: 100%; } }
