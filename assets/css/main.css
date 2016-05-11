@@ -628,7 +628,7 @@ input[type="button"] {
     .typography .headings .thin {
       font-weight: 100; }
     .typography .headings .blurb {
-      margin-top: -10%;
+      margin-top: -5em;
       width: 75%; }
 
 .logo-container {
